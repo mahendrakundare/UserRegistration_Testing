@@ -16,4 +16,12 @@ public class UserNameValidator {
     }
 
 
+    public boolean validateLastName(String lastName) {
+        Pattern lnamePatter = Pattern.compile("^[A-Z]{1}[a-z]{2,}$");
+        Matcher matcher = lnamePatter.matcher(lastName);
+        if (matcher.matches())
+            return true;
+        else
+            return false;
+    }
 }
