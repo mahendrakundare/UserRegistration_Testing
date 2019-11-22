@@ -12,4 +12,11 @@ public class MobileValidationTest {
         boolean result = validator.validateMobile("91 8149288245");
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void givenMobile_WhenNotGivenSpace_ShouldReturnFalse() {
+        boolean result = validator.validateMobile("918149288245");
+        Assert.assertFalse(result);
+    }
+
 }
