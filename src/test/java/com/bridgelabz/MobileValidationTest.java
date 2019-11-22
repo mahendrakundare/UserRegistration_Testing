@@ -19,4 +19,10 @@ public class MobileValidationTest {
         Assert.assertFalse(result);
     }
 
+    @Test
+    public void givenMobile_WhenPassChar_ShouldReturnFalse() {
+        boolean result= validator.validateMobile("abcdere" );
+        Assert.assertFalse(result);
+    }
+
 }

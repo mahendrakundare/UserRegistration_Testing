@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MobileValidationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-22T13:13:04" hostname="admin1-LIVA-Z2V" time="0.003">
+<testsuite name="com.bridgelabz.MobileValidationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-22T13:23:40" hostname="admin1-LIVA-Z2V" time="0.003">
   <properties/>
-  <testcase name="givenMobile_WhenNotGivenSpace_ShouldReturnFalse" classname="com.bridgelabz.MobileValidationTest" time="0.003"/>
+  <testcase name="givenMobile_WhenPassChar_ShouldReturnFalse" classname="com.bridgelabz.MobileValidationTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
