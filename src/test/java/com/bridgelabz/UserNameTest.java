@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class UserNameTest {
 
-    UserNameValidator validator = new UserNameValidator();
+    UserRegistrationValidator validator = new UserRegistrationValidator();
     @Test
     public void givenFirstName_WhenProper_ShouldReturnTrue() {
       boolean result = validator.validateFirstName("Mahendra");
