@@ -25,4 +25,9 @@ public class MobileValidationTest {
         Assert.assertFalse(result);
     }
 
+    @Test
+    public void givenMobile_WhenPassSpecialCharacter_ShouldReturnFalse() {
+        boolean result = validator.validateMobile("@$%#$%#$%");
+        Assert.assertFalse(result);
+    }
 }
