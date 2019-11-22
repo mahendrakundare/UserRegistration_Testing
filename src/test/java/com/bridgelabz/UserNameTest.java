@@ -20,7 +20,8 @@ public class UserNameTest {
 
     @Test
     public void givenFirstName_WhenGreaterThanThree_ShouldReturnFalse() {
-
+        boolean result = validator.validateFirstName("Mahendra");
+        Assert.assertTrue(result);
     }
 
     @Test
@@ -28,4 +29,5 @@ public class UserNameTest {
         boolean result = validator.validateFirstName("ma");
         Assert.assertFalse(result);
     }
+
 }
