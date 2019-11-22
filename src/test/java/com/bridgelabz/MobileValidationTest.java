@@ -30,4 +30,10 @@ public class MobileValidationTest {
         boolean result = validator.validateMobile("@$%#$%#$%");
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void givenMobile_WhenPassSpaceAtAnyPosition_ShouldReturnFalse() {
+        boolean result = validator.validateMobile("814928 853670");
+        Assert.assertFalse(result);
+    }
 }
