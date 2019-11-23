@@ -1,24 +1,12 @@
-Expected result is  :true
-Expected result is  :true
-Expected result is  :true
-Expected result is  :true
-Expected result is  :true
-Expected result is  :true
-Expected result is  :true
-	Expected result is  :true
+# Result for Password@123 is : true
+# Result for passWord@123 is : true
+# Result for @passWord123 is : true
+# Result for pass@123Word is : true
+# Result for @123Password is : true
+# Result for 123Password@ is : true
+ Result for mahi is : false
+	' Result for mahendrakundara is : false
 
-Expected result is  :true
-Expected result is  :true
-Expected result is  :true
-Expected result is  :true
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
-Expected result is  :false
+$ Result for MAHENDRA@123 is : false
+  Result for Mahendra is : false
+! Result for 123456789 is : false

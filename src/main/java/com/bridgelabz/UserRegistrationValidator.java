@@ -42,4 +42,15 @@ public class UserRegistrationValidator {
         else
             return false;
     }
+
+    public boolean validatePassword(String password){
+//        Pattern passwordPattern = Pattern.compile(".*[A-Z]{1}.*[0-9]{1}.*[$&+,:;=?@#|'<>.-^*()%!].*$");
+        String pass ="((?=.*[a-z])(?=.*\\d)(?=.*[A-Z])(?=.*[@#$%!]).{8,40})";
+        Pattern passwordPattern = Pattern.compile(pass);
+        Matcher matcher = passwordPattern.matcher(password);
+        if (matcher.matches())
+            return true;
+        else
+            return false;
+    }
 }
