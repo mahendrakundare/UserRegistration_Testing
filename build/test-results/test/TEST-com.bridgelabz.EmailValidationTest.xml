@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.EmailValidationTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2019-11-23T03:52:01" hostname="admin1-LIVA-Z2V" time="0.054">
+  <properties/>
+  <testcase name="emailTest[0]" classname="com.bridgelabz.EmailValidationTest" time="0.01"/>
+  <testcase name="emailTest[1]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[2]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[3]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="emailTest[4]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[5]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[6]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="emailTest[7]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[8]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[9]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="emailTest[10]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[11]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="emailTest[12]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="emailTest[13]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="emailTest[14]" classname="com.bridgelabz.EmailValidationTest" time="0.007"/>
+  <testcase name="emailTest[15]" classname="com.bridgelabz.EmailValidationTest" time="0.004"/>
+  <testcase name="emailTest[16]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <testcase name="emailTest[17]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[18]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[19]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[20]" classname="com.bridgelabz.EmailValidationTest" time="0.0"/>
+  <testcase name="emailTest[21]" classname="com.bridgelabz.EmailValidationTest" time="0.002"/>
+  <testcase name="emailTest[22]" classname="com.bridgelabz.EmailValidationTest" time="0.001"/>
+  <system-out><![CDATA[Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :true
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+Expected result is  :false
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

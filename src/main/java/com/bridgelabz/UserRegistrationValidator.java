@@ -26,7 +26,7 @@ public class UserRegistrationValidator {
     }
 
     public boolean validateEmail(String email ) {
-        Pattern emailPattern = Pattern.compile("^[a-zA-Z0-9][-._+a-zA-Z0-9]*[@]{1}[a-z]*[.]{1}[a-z]{2,3}[.]{0,1}([a-z]{2,3}){0,1}$");
+        Pattern emailPattern = Pattern.compile("^[a-zA-Z0-9]([-._+]{0,1}[a-zA-Z0-9])*[@]{1}[a-zA-Z0-9]{1,}[.]{1}[a-zA-Z]{2,3}([.]{1}[a-zA-Z]{2,3}){0,1}$");
         Matcher matcher = emailPattern.matcher(email);
         if (matcher.matches())
             return true;
